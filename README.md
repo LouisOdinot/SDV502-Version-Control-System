@@ -60,4 +60,18 @@ git add file
 
 <img src="images\gitammendundoing.png" />
 
+<b>Unmodifying</b> 
 
+What if you realize that you don’t want to keep your changes to the CONTRIBUTING.md file? How can you easily unmodify it — revert it back to what it looked like when you last committed
+
+<img src="images\1unmodadd addition js.png" />
+
+git add filename
+
+<img src="images\2 umod git checkout.png" />
+
+git checkout – filename
+
+<img src="images\3 git status.png" />
+
+git status
