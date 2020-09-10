@@ -1,7 +1,7 @@
 # SDV502-Version-Control-System
 Version Control System
 
-<b>git cherry-pick</b> 
+<b>Cherry-pick</b> 
 
 This is a command that enables specified Git commits to be picked by the commit reference number and appended to the current master.
 This is a useful way of rolling back commits if there has been an issue with a commit.
@@ -75,3 +75,22 @@ git checkout – filename
 <img src="images\3 git status.png" />
 
 git status
+<b>Rebase</b>
+
+this is a command that can be used to move or combine a sequence of commits to a new base commit,  this means all the commits made in a divergent branch can be added back to the master.
+
+Step one - Checkout to the diverged branch
+
+<img src="images\rebase_pic1.PNG" />
+
+Step two - Rebase to master (addeds newer commits)
+
+<img src="images\rebase_pic2.PNG" />
+
+Step three - Checkout to master
+
+<img src="images\rebase_pic3.PNG" />
+
+Step five - Merge master (no change, already up to date)
+
+<img src="images\rebase_pic4.PNG" />
