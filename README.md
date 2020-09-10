@@ -75,6 +75,7 @@ git checkout – filename
 <img src="images\3 git status.png" />
 
 git status
+
 <b>Rebase</b>
 
 this is a command that can be used to move or combine a sequence of commits to a new base commit,  this means all the commits made in a divergent branch can be added back to the master.
@@ -94,3 +95,23 @@ Step three - Checkout to master
 Step five - Merge master (no change, already up to date)
 
 <img src="images\rebase_pic4.PNG" />
+
+<b>Cleaning</b>
+
+git clean is a convenience method for deleting untracked files in a repo's working directory. Untracked files are those that are in the repo's directory but have not yet been added to the repo's index with git add.
+
+<img src="images\11.png" />
+
+If you just clean untracked files, git clean -f
+
+<img src="images\22.png" />
+
+If you want to also remove directories, git clean -f -d
+
+<img src="images\55.PNG" />
+
+If you just want to remove ignored files, git clean -f -X
+
+<img src="images\66.PNG" />
+
+If you want to remove ignored as well as non-ignored files, git clean -f -x
