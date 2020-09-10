@@ -41,3 +41,23 @@ Git reset HEAD addition.js.  Unstages changes.
 <img src="images\gitresetheadaddition.png" />
 
 Revert the file back to the state it was in before the changes.
+
+<b>Undoing</b> 
+
+One of the common undos takes place when you commit too early and possibly forget to add some files, or you mess up your commit message. If you want to redo that commit, make the additional changes you forgot, stage them, and commit again using the --amend option
+
+<img src="images\gitaddundoingthings.png" />
+
+git add
+
+<img src="images\gitcommitundoing.png" />
+
+git commit -m “message”
+
+<img src="images\gitadditionundoing.png" />
+
+git add file
+
+<img src="images\gitammendundoing.png" />
+
+
