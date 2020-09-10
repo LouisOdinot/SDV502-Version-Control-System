@@ -1,7 +1,7 @@
 # SDV502-Version-Control-System
 Version Control System
 
-<b>git cherry-pick<b> 
+<b>git cherry-pick</b> 
 
 This is a command that enables specified Git commits to be picked by the commit reference number and appended to the current master.
 This is a useful way of rolling back commits if there has been an issue with a commit.
