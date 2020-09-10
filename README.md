@@ -8,7 +8,7 @@ This is a useful way of rolling back commits if there has been an issue with a c
 
 Step one - use git log to see the commit hashes
 
-<img src="C:\Users\callu\Documents\workspace\SDV502-Version-Control-System\images\cp_pic1.PNG" />
+<img src="images\cp_pic1.PNG" />
 
 Step two - use git cherry-pick d33c8d1 to move to that commit
 
