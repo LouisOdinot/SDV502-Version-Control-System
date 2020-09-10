@@ -26,3 +26,18 @@ Step six - cherry-picked change is completed
 
 <img src="images\cp_pic4.PNG" />
 
+<b>Unstaging</b> 
+
+If you have accidentally staged all your changed files you can unstage them all by using git reset.  This should put you back in the state you were before staging all your changes files. Allowing you to stage changed files individually before you commit.
+
+<img src="images\unstaginggitstatus.png" />
+
+Git status.  Git status before staging and unstaging.
+
+<img src="images\gitresetheadaddition.png" />
+
+Git reset HEAD addition.js.  Unstages changes.
+
+<img src="images\gitresetheadaddition.png" />
+
+Revert the file back to the state it was in before the changes.
