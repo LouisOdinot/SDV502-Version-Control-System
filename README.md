@@ -7,6 +7,7 @@ This is a command that enables specified Git commits to be picked by the commit 
 This is a useful way of rolling back commits if there has been an issue with a commit.
 
 Step one - use git log to see the commit hashes
+![alt text](C:\Users\callu\Documents\workspace\SDV502-Version-Control-System\images\cp_pic1.PNG "pic1")
 
 Step two - use git cherry-pick d33c8d1 to move to that commit
 
