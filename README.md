@@ -96,7 +96,6 @@ Step five - Merge master (no change, already up to date)
 
 <img src="images\rebase_pic4.PNG" />
 
-<<<<<<< HEAD
 <b>Cleaning</b>
 
 git clean is a convenience method for deleting untracked files in a repo's working directory. Untracked files are those that are in the repo's directory but have not yet been added to the repo's index with git add.
@@ -116,7 +115,6 @@ If you just want to remove ignored files, git clean -f -X
 <img src="images\66.PNG" />
 
 If you want to remove ignored as well as non-ignored files, git clean -f -x
-=======
 <b>Stash</b>
 
 This is a command that can be used to store work without having to stage and commit it, 
@@ -141,4 +139,3 @@ Step four - Use git stash list to show the stashed work
 step five - Navigate back to the diverged branch and use git stash apply to unstash the saved work
 
 <img src="images\stash_pic5.PNG" />
->>>>>>> 600e91e91b1c80a79f8d1a306848760759c9fbb3
