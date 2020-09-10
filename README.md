@@ -94,3 +94,28 @@ Step three - Checkout to master
 Step five - Merge master (no change, already up to date)
 
 <img src="images\rebase_pic4.PNG" />
+
+<b>Stash</b>
+
+This is a command that can be used to store work without having to stage and commit it, 
+for example if work was in progress on a branch but was not ready to be staged, then this would be a good way to preserve it without having stage it
+
+Step one - Checkout a diverged branch and make some changes then use git status to display the state of the changes (unstaged)
+
+<img src="images\stash_pic1.PNG" />
+
+Step two - Use git stash to save the changes
+
+<img src="images\stash_pic2.PNG" />
+
+Step three - Then able to navigate to other branches without any issues
+
+<img src="images\stash_pic3.PNG" />
+
+Step four - Use git stash list to show the stashed work
+
+<img src="images\stash_pic4.PNG" />
+
+step five - Navigate back to the diverged branch and use git stash apply to unstash the saved work
+
+<img src="images\stash_pic5.PNG" />
