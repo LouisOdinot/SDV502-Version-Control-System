@@ -115,10 +115,7 @@ If you just want to remove ignored files, git clean -f -X
 <img src="images\66.PNG" />
 
 If you want to remove ignored as well as non-ignored files, git clean -f -x
-<<<<<<< HEAD
 
-=======
->>>>>>> 79274a8d07db51feb2153d05cd820e99891b810f
 <b>Stash</b>
 
 This is a command that can be used to store work without having to stage and commit it, 
@@ -143,7 +140,6 @@ Step four - Use git stash list to show the stashed work
 step five - Navigate back to the diverged branch and use git stash apply to unstash the saved work
 
 <img src="images\stash_pic5.PNG" />
-<<<<<<< HEAD
 
 <b>Branching workflow</b>
 
@@ -163,5 +159,3 @@ Step two - Make some changes and test them then add and commit
 Step three - Checkout to master and merge the dev branch back to master
 
 <img src="images\workflow_pic4.PNG" />
-=======
->>>>>>> 79274a8d07db51feb2153d05cd820e99891b810f
