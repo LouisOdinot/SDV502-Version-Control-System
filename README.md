@@ -131,11 +131,11 @@ Step two - Use git stash to save the changes
 
 Step three - Then able to navigate to other branches without any issues
 
-<img src="images\stash_pic3.PNG" />
+<img src="images\Stash_pic3.PNG" />
 
 Step four - Use git stash list to show the stashed work
 
-<img src="images\stash_pic4.PNG" />
+<img src="images\Stash_pic4.PNG" />
 
 step five - Navigate back to the diverged branch and use git stash apply to unstash the saved work
 
