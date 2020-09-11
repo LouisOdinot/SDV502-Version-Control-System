@@ -96,7 +96,6 @@ Step five - Merge master (no change, already up to date)
 
 <img src="images\rebase_pic4.PNG" />
 
-<<<<<<< HEAD
 <b>Cleaning</b>
 
 git clean is a convenience method for deleting untracked files in a repo's working directory. Untracked files are those that are in the repo's directory but have not yet been added to the repo's index with git add.
@@ -116,7 +115,7 @@ If you just want to remove ignored files, git clean -f -X
 <img src="images\66.PNG" />
 
 If you want to remove ignored as well as non-ignored files, git clean -f -x
-=======
+
 <b>Stash</b>
 
 This is a command that can be used to store work without having to stage and commit it, 
@@ -141,4 +140,22 @@ Step four - Use git stash list to show the stashed work
 step five - Navigate back to the diverged branch and use git stash apply to unstash the saved work
 
 <img src="images\stash_pic5.PNG" />
->>>>>>> 600e91e91b1c80a79f8d1a306848760759c9fbb3
+
+<b>Branching workflow</b>
+
+This is the concept is using diffrent branches to provide seperation of code when working on a project, for example many developers use master as their production/stable branch
+and for untested or unstable work they will create seperate branches such as a dev branch. This means that changes can be made but only moved back into the master branch when they are acceptable.
+
+Step one - Create a new development branch and checkout to it using git checkout -b dev
+
+<img src="images\workflow_pic1.PNG" />
+
+Step two - Make some changes and test them then add and commit
+
+<img src="images\workflow_pic2.PNG" />
+
+<img src="images\workflow_pic3.PNG" />
+
+Step three - Checkout to master and merge the dev branch back to master
+
+<img src="images\workflow_pic4.PNG" />
